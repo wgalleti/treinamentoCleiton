@@ -10,6 +10,7 @@
           <b-nav-item to="/">Home</b-nav-item>
           <b-nav-item to="/about">About</b-nav-item>
           <b-nav-item to="/cleiton">Cleiton</b-nav-item>
+          <b-nav-item to="/clientes">Clientes</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->

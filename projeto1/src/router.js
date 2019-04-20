@@ -20,6 +20,11 @@ export default new Router({
       path: '/cleiton',
       name: 'cleiton',
       component: () => import('./views/Cleiton.vue')
+    },
+    {
+      path: '/clientes',
+      name: 'clientes',
+      component: () => import('./views/Clientes.vue')
     }
   ]
 })

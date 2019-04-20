@@ -1,20 +1,12 @@
 <template>
   <div>
-    <bs-c-crud
-      :dados="dados"
-      @reload="recarregar"
+
+    <bs-c-crud-store
+      :dados="$store.state.cleitons"
+      apiRecarregar="getCleitons"
+      apiApagar="removeCleiton"
+      apiSalvar="saveCleiton"
     />
+
   </div>
 </template>
-
-<script>
-import lista from '../mixins/lista'
-export default {
-  mixins: [
-    lista
-  ],
-  mounted () {
-    this.recarregar()
-  }
-}
-</script>
