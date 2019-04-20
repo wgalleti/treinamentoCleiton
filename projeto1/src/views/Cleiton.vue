@@ -1,11 +1,9 @@
 <template>
   <div>
-    <h1>Rota do Cleiton</h1>
-    <c-crud
+    <bs-c-crud
       :dados="dados"
       @reload="recarregar"
     />
-    <hr>
   </div>
 </template>
 
